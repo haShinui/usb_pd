@@ -11,17 +11,22 @@ BrodBoost-PD is an open-source project of Axiometa. Device is available for purc
 ![pdp_top-1](https://github.com/user-attachments/assets/b0c6e7ff-caee-4a20-943f-16d27a50bbca)
 
 
-# Compatibility
+# Device Configurations
 
+# Breadboard Compatibility
+In the case of attached headers,the device becomes compatible with almost all BB400 & BB800 Solderless Breadboards
 
 ![compatibility_pdp1](https://github.com/user-attachments/assets/a417a1fb-0124-4bd5-ae57-e07c31d4e7c0)
 
 # Voltage Selection
-
+All voltage rails are connected, that includes both breadboard rails, screw terminal and solder pads. The voltages can be selected through the dip switches in a fashion shown bellow.
 
 ![dip_tutorial2](https://github.com/user-attachments/assets/cf4f1a10-5738-44a1-a36c-b9121f5f5b6c)
 
 # Schematic
+A USB-C receptacle accepts a USB-C cable, with CC1 and CC2 pins connected to the CYPD3177. USB data lines are broken out to a header, while the power rails are managed through a MOSFET bridge, also controlled by the CYPD3177.
+When a compatible USB-C cable is connected, the CYPD3177 communicates with the power source and requests a voltage based on the DIP switch-selected reference voltage. Available options include 20V, 15V, 12V, 9V, and 5V.
+Current is fixed at 2A, as requested current does not enforce actual current delivery, making adjustable current selection unnecessary. I2C connections have been removed to save space and BOM cost, as they offer little added value for this application.
 
 
 <img width="990" alt="pdp_Schematic" src="https://github.com/user-attachments/assets/3d73b32f-8d03-4230-910e-fecf5c8f8b3c" />
