@@ -32,7 +32,7 @@ In the case of attached headers,the device becomes compatible with almost all BB
 # Voltage Selection
 All voltage rails are connected, that includes both breadboard rails, screw terminal and solder pads. The voltages can be selected through the dip switches in a fashion shown bellow.
 
-![dip_tutorial2](https://github.com/user-attachments/assets/cf4f1a10-5738-44a1-a36c-b9121f5f5b6c)
+![wdqqwd](https://github.com/user-attachments/assets/26fe3144-141e-4d6f-9bc3-8e5c5cc3c40a)
 
 # Schematic
 A USB-C receptacle accepts a USB-C cable, with CC1 and CC2 pins connected to the CYPD3177. USB data lines are broken out to a header, while the power rails are managed through a MOSFET bridge, also controlled by the CYPD3177.
