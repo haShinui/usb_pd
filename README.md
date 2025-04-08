@@ -49,6 +49,10 @@ Current is fixed at 2A, as requested current does not enforce actual current del
 
 BrodBoost-PD is a 4-layer PCB measuring 11.4 mm by 54.0 mm, designed to maximize trace width, thermal performance and interfere as minimally as possible to the power lines. This layout comfortably supports the nominal device current of approximately 4-5 A @ 20V.
 
-<img width="896" alt="Screenshot 2025-03-08 at 14 27 23" src="https://github.com/user-attachments/assets/5864e3ea-8688-4e1f-a3e3-bf9867eceb08" />
+![Screenshot 2025-04-08 233859](https://github.com/user-attachments/assets/89840d9e-cbc5-4a5c-8346-a40912ce433a)
 
+![Screenshot 2025-04-08 233907](https://github.com/user-attachments/assets/7b08fb32-5c26-40d7-b478-b0faf1c88c0e)
 
+![Screenshot 2025-04-08 233912](https://github.com/user-attachments/assets/e78fd727-4f4a-44a9-b355-93c84bf15665)
+
+![Screenshot 2025-04-08 233917](https://github.com/user-attachments/assets/744df9b2-1777-495b-98a8-6549c7533f39)
