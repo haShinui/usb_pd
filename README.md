@@ -42,7 +42,8 @@ When a compatible USB-C cable is connected, the CYPD3177 communicates with the p
 Current is fixed at 2A, as requested current does not enforce actual current delivery, making adjustable current selection unnecessary. I2C connections have been removed to save space and BOM cost, as they offer little added value for this application.
 
 
-<img width="990" alt="pdp_Schematic" src="https://github.com/user-attachments/assets/3d73b32f-8d03-4230-910e-fecf5c8f8b3c" />
+![Screenshot 2025-04-08 233722](https://github.com/user-attachments/assets/2801dfe3-3c0d-4ca4-bb1f-adc25243cf4a)
+
 
 # PCB Design
 
