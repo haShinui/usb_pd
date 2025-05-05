@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a370047b-ebc6-4236-825e-9462ba7e4392")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 42.545 45.72)
+		(size 48.895 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd19bb82-a076-4c57-9538-864609224ca0")
+		(property "Sheetname" "Logic"
+			(at 42.545 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Logic.kicad_sch"
+			(at 42.545 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.725 69.85)
+		(size 52.07 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed97b83e-5e05-4a40-92ea-fb87b568f4be")
+		(property "Sheetname" "Power_selection"
+			(at 212.725 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_selection.kicad_sch"
+			(at 212.725 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 46.99)
+		(size 55.245 67.31)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f9278a29-edee-4e3c-b24d-7a370e39fb32")
+		(property "Sheetname" "Power"
+			(at 132.08 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 132.08 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 2,
-    "active_layer_preset": "",
+    "active_layer": 19,
+    "active_layer_preset": "Front Assembly View",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000002_22020089",
+    "visible_layers": "00000000_00000000_00000008_82000022",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "HUSB238_version.kicad_prl",
+    "filename": "HUSB238_3.3V_Version.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

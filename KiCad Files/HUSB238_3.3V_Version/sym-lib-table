@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/tps2121/TPS2121RUXR.kicad_sym")(options "")(descr ""))
+)

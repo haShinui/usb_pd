@@ -1392,43 +1392,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:MBR0520LT"
+		(symbol "Device:Fuse_Small"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
+			(property "Reference" "F"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MBR0520LT"
-				(at 0 -2.54 0)
+			(property "Value" "Fuse_Small"
+				(at 0 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1437,7 +1428,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1446,7 +1437,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "Description" "Fuse, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1455,7 +1446,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?123*"
+			(property "ki_keywords" "fuse"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1464,13 +1455,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "MBR0520LT_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Small_0_1"
+				(rectangle
+					(start -1.27 0.508)
+					(end 1.27 -0.508)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1479,19 +1478,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 0) (xy 1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1502,11 +1489,11 @@
 					)
 				)
 			)
-			(symbol "MBR0520LT_1_1"
+			(symbol "Fuse_Small_1_1"
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1522,9 +1509,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2485,23 +2472,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:LM317L_SOT-89"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:HT75xx-1-SOT89"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM317L_SOT-89"
-				(at 0 3.175 0)
+				(at -5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2509,8 +2485,16 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(property "Value" "HT75xx-1-SOT89"
 				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+				(at 0 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2519,7 +2503,16 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317l.pdf"
+			(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2528,16 +2521,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100mA 35V Adjustable Linear Regulator, SOT-89"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
+			(property "ki_keywords" "100mA LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2555,10 +2539,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM317L_SOT-89_0_1"
+			(symbol "HT75xx-1-SOT89_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 5.08)
+					(end 5.08 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2568,18 +2552,18 @@
 					)
 				)
 			)
-			(symbol "LM317L_SOT-89_1_1"
+			(symbol "HT75xx-1-SOT89_1_1"
 				(pin power_in line
-					(at -7.62 0 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VI"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2587,10 +2571,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 90)
+				(pin power_in line
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "ADJ"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2606,16 +2590,16 @@
 					)
 				)
 				(pin power_out line
-					(at 7.62 0 180)
+					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "VO"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4164,12 +4148,6 @@
 		(uuid "0de6c73e-7094-4123-809b-16a1fdfa31fd")
 	)
 	(junction
-		(at 222.25 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1244e6a5-59b7-4cfd-a677-60ba999758be")
-	)
-	(junction
 		(at 229.87 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4182,28 +4160,22 @@
 		(uuid "1a51a761-e015-4fbd-9638-628f863b0003")
 	)
 	(junction
-		(at 226.06 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "203f2e1c-8180-4e42-9b32-a2981d94a05c")
-	)
-	(junction
 		(at 133.35 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23eb4dfe-f0e7-4b2d-9f15-0eb70f7ffc78")
 	)
 	(junction
+		(at 231.14 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e1089e4-aae5-4970-8b67-894a8ff8785d")
+	)
+	(junction
 		(at 160.02 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "364d40cb-5d94-49c6-b4a7-a305b9c06a0a")
-	)
-	(junction
-		(at 185.42 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46e0f882-e8f6-4ef6-9dd5-9fb38998d0df")
 	)
 	(junction
 		(at 105.41 115.57)
@@ -4242,34 +4214,22 @@
 		(uuid "85e0cb7b-4fd7-4db7-b709-400491d86a0b")
 	)
 	(junction
-		(at 232.41 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f61daee-6e42-4df4-bfe6-07c6df72ae5a")
-	)
-	(junction
-		(at 236.22 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ad0e41b-5331-42b8-8b5a-0ef348d6f2ac")
-	)
-	(junction
 		(at 114.3 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a69175f5-3dae-4c72-8070-a47dedd2621b")
 	)
 	(junction
+		(at 222.25 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af695dc4-9633-484c-8d94-38924a2ac5e7")
+	)
+	(junction
 		(at 157.48 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4493ff0-de32-4059-b3b7-73948d0b90c7")
-	)
-	(junction
-		(at 240.03 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9788f96-6be3-4cb5-92cb-2ae552544ef1")
 	)
 	(junction
 		(at 231.14 132.08)
@@ -4282,12 +4242,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bedce461-b8f7-4a0c-8403-197e3c8900ae")
-	)
-	(junction
-		(at 213.36 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3b2a0b1-6d99-4ce7-bc34-c272900f63e6")
 	)
 	(junction
 		(at 180.34 87.63)
@@ -4308,24 +4262,6 @@
 		(uuid "d97145ab-0c33-4940-a55b-d96edbbf8c2c")
 	)
 	(junction
-		(at 232.41 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dab9fca6-63fd-4061-9a1e-58980412610f")
-	)
-	(junction
-		(at 222.25 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dbf9a3e3-6da3-4398-addd-720ea54eae2a")
-	)
-	(junction
-		(at 226.06 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e36230b6-23c0-43f3-9f02-f4ed03ba951c")
-	)
-	(junction
 		(at 229.87 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4338,10 +4274,22 @@
 		(uuid "e6ee2a94-ecf4-4157-9846-1ff0be13d2e1")
 	)
 	(junction
+		(at 213.36 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e789a18b-ab58-454f-930f-fff00dbf254b")
+	)
+	(junction
 		(at 227.33 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e94af08e-724c-496d-b4d1-0e3172ef87d7")
+	)
+	(junction
+		(at 185.42 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9e04aca-dd08-4de6-908f-68f181db9923")
 	)
 	(junction
 		(at 233.68 144.78)
@@ -4378,16 +4326,6 @@
 			(type default)
 		)
 		(uuid "015fccc9-444a-4e92-af82-ed4d3d4324b2")
-	)
-	(wire
-		(pts
-			(xy 240.03 78.74) (xy 240.03 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03ad5526-2ee8-443e-86fd-69afd6a5090f")
 	)
 	(wire
 		(pts
@@ -4521,16 +4459,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 87.63) (xy 226.06 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ed4da5-8175-4718-b10b-f4673b0b00fc")
-	)
-	(wire
-		(pts
 			(xy 133.35 96.52) (xy 133.35 95.25)
 		)
 		(stroke
@@ -4538,6 +4466,16 @@
 			(type default)
 		)
 		(uuid "3014d6a0-9f46-45ec-ae1e-16142c056c9f")
+	)
+	(wire
+		(pts
+			(xy 213.36 83.82) (xy 213.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328319b0-a9eb-4f8b-bc1e-efa413b174a3")
 	)
 	(wire
 		(pts
@@ -4651,6 +4589,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 78.74) (xy 240.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4effd6ea-b0eb-44a5-ac57-df259c1901db")
+	)
+	(wire
+		(pts
 			(xy 233.68 144.78) (xy 246.38 144.78)
 		)
 		(stroke
@@ -4668,16 +4616,6 @@
 			(type default)
 		)
 		(uuid "5256c243-9f22-4ee9-9ce7-b4133bc5ac95")
-	)
-	(wire
-		(pts
-			(xy 213.36 78.74) (xy 214.63 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f38949-b822-40b6-92c0-4911d1e02f9b")
 	)
 	(wire
 		(pts
@@ -4711,6 +4649,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a805eb-4b63-427c-8dac-a2c6b2b2b462")
+	)
+	(wire
+		(pts
 			(xy 156.21 96.52) (xy 160.02 96.52)
 		)
 		(stroke
@@ -4718,26 +4666,6 @@
 			(type default)
 		)
 		(uuid "6779ac21-0745-4e20-80b6-492063389281")
-	)
-	(wire
-		(pts
-			(xy 240.03 92.71) (xy 240.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ce3ab53-cafa-47de-a733-21e78e106dff")
-	)
-	(wire
-		(pts
-			(xy 213.36 78.74) (xy 213.36 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ed2cabf-3386-4204-96c4-e356105fb7fb")
 	)
 	(wire
 		(pts
@@ -4801,13 +4729,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 86.36) (xy 226.06 86.36)
+			(xy 231.14 83.82) (xy 231.14 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "757da0e4-5752-4ebe-aa39-cf132c56e3da")
+		(uuid "752c3141-91d1-4f22-9785-faf0146bc0ff")
 	)
 	(wire
 		(pts
@@ -4881,16 +4809,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 78.74) (xy 236.22 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b926de2-7af3-4e8d-a3fa-8442b0a8bdbd")
-	)
-	(wire
-		(pts
 			(xy 171.45 87.63) (xy 175.26 87.63)
 		)
 		(stroke
@@ -4951,7 +4869,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 78.74) (xy 240.03 78.74)
+			(xy 229.87 78.74) (xy 231.14 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4981,13 +4899,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 95.25) (xy 240.03 95.25)
+			(xy 231.14 86.36) (xy 222.25 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a404ff8-d1d0-4828-a246-10c6c41bbb82")
+		(uuid "9a44bfcc-a060-4d18-9a12-ec179aa505b1")
 	)
 	(wire
 		(pts
@@ -5051,16 +4969,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 95.25) (xy 222.25 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5411cec-5b41-4583-8c46-f5fef4ff4700")
-	)
-	(wire
-		(pts
 			(xy 229.87 106.68) (xy 232.41 106.68)
 		)
 		(stroke
@@ -5101,6 +5009,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 78.74) (xy 214.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe125e9-3d53-4f13-b220-a85ddd15f2b7")
+	)
+	(wire
+		(pts
 			(xy 212.09 78.74) (xy 213.36 78.74)
 		)
 		(stroke
@@ -5118,16 +5036,6 @@
 			(type default)
 		)
 		(uuid "b65ba348-eec3-4772-81d2-daa1383e9643")
-	)
-	(wire
-		(pts
-			(xy 222.25 95.25) (xy 226.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf5d0b45-dcc2-40ad-bd43-fd7455eebc26")
 	)
 	(wire
 		(pts
@@ -5161,16 +5069,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 95.25) (xy 222.25 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f03029-0d0a-46e2-b6ff-665c619711b1")
-	)
-	(wire
-		(pts
 			(xy 127 102.87) (xy 127 111.76)
 		)
 		(stroke
@@ -5191,16 +5089,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 92.71) (xy 226.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d435e990-416e-44e0-911a-672b827d1e5f")
-	)
-	(wire
-		(pts
 			(xy 157.48 133.35) (xy 162.56 133.35)
 		)
 		(stroke
@@ -5208,26 +5096,6 @@
 			(type default)
 		)
 		(uuid "d45ad4b5-8fcd-4b46-b8b0-f5440b90615f")
-	)
-	(wire
-		(pts
-			(xy 213.36 91.44) (xy 213.36 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99bf37f-80e1-486c-9226-5474c3c6cac7")
-	)
-	(wire
-		(pts
-			(xy 232.41 86.36) (xy 236.22 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5c9818-2dce-4f80-9de2-fc4a9d1af6a3")
 	)
 	(wire
 		(pts
@@ -5258,16 +5126,6 @@
 			(type default)
 		)
 		(uuid "e6b2f7ce-c959-4524-898e-285ae35d5aeb")
-	)
-	(wire
-		(pts
-			(xy 226.06 86.36) (xy 232.41 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88396d0-bf3a-4c48-8cd8-3009cfa6e02d")
 	)
 	(wire
 		(pts
@@ -5308,16 +5166,6 @@
 			(type default)
 		)
 		(uuid "f3454e38-d361-4649-a6dc-2363e682bf09")
-	)
-	(wire
-		(pts
-			(xy 229.87 78.74) (xy 232.41 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ccc8be-4b2b-4766-8334-daf026b13a3a")
 	)
 	(wire
 		(pts
@@ -5557,32 +5405,35 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Resistors:1k")
-		(at 232.41 82.55 270)
+		(lib_id "power:VCC")
+		(at 190.5 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "04dc7017-a1bd-4c1d-a883-d8b846a2a8f4")
-		(property "Reference" "R24"
-			(at 232.664 82.55 0)
+		(fields_autoplaced yes)
+		(uuid "06395481-7aee-4396-84ee-4c12c2369f0c")
+		(property "Reference" "#PWR06"
+			(at 186.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "1KΩ"
-			(at 229.87 82.55 0)
+		(property "Value" "VCC"
+			(at 194.31 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 228.092 83.439 0)
+		(property "Footprint" ""
+			(at 190.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 83.058 0)
+			(at 190.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,8 +5450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
-			(at 232.41 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 190.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,15 +5460,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3ac06bf-8fdb-48db-99c5-c5fe20c1f1ba")
-		)
-		(pin "2"
-			(uuid "abf4df5d-b86b-438b-ab03-b197f33c90e5")
+			(uuid "49187e70-adcd-4c90-ba6d-b30464adb921")
 		)
 		(instances
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "R24")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5684,78 +5532,6 @@
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
 					(reference "#PWR0131")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:LM317L_SOT-89")
-		(at 222.25 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "098f3692-5890-4f8f-9c3b-3bdda87c5582")
-		(property "Reference" "U1"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM317L_SOT-89"
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 222.25 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317l.pdf"
-			(at 222.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100mA 35V Adjustable Linear Regulator, SOT-89"
-			(at 222.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e136d064-7160-4ce0-9c16-0509b135315c")
-		)
-		(pin "2"
-			(uuid "f338ee11-8e74-4236-93b6-89e1179daa29")
-		)
-		(pin "3"
-			(uuid "8c19527f-e9b3-4f4b-b0e2-d2c0a88fbfb8")
-		)
-		(instances
-			(project ""
-				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6171,6 +5947,75 @@
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 213.36 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c8a6f60-122f-4ee1-8a61-877c48413c42")
+		(property "Reference" "C11"
+			(at 217.932 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uF"
+			(at 211.582 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa961868-319f-47f1-9ab4-0fdf2f3c4c6c")
+		)
+		(pin "1"
+			(uuid "990a9c19-0f55-4835-ab82-76286bebd03a")
+		)
+		(instances
+			(project "HUSB238_version"
+				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6807,73 +6652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 185.42 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "397b23b7-8f21-48ba-802c-5d95b584ae38")
-		(property "Reference" "#PWR01"
-			(at 181.61 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 189.23 87.6299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 185.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c5dd73e-bd15-4cc6-b8a2-7508012d5221")
-		)
-		(instances
-			(project ""
-				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_SL_Resistors:4.7k")
 		(at 153.67 93.98 90)
 		(unit 1)
@@ -7003,75 +6781,6 @@
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 226.06 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47afa6ed-abe8-4572-92c4-ea5f4cf20bd5")
-		(property "Reference" "C8"
-			(at 230.632 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Cap_10uF"
-			(at 235.966 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 226.06 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "015cc0c7-106c-42bc-b714-cb2fc1b62d37")
-		)
-		(pin "1"
-			(uuid "d095d4df-9942-40a9-8929-cda661238de9")
-		)
-		(instances
-			(project "HUSB238_version"
-				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7306,6 +7015,72 @@
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
 					(reference "N21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 222.25 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "537cd4f0-f0c0-4dcf-8609-9eb7b744b906")
+		(property "Reference" "#PWR012"
+			(at 222.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52a36b7b-4ee8-42dc-bdb6-cf1622310094")
+		)
+		(instances
+			(project "HUSB238_version"
+				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7667,41 +7442,32 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Resistors:1k")
-		(at 222.25 90.17 270)
+		(lib_id "Device:Fuse_Small")
+		(at 187.96 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "769994c8-62ae-479c-8488-68e9658d78b9")
-		(property "Reference" "R23"
-			(at 222.504 90.17 0)
+		(uuid "7a8fc810-cb3c-4552-8e35-5ef2280461d2")
+		(property "Reference" "F1"
+			(at 187.96 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1kΩ"
-			(at 219.71 90.17 0)
+		(property "Value" "Fuse_3.5A"
+			(at 187.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 217.932 91.059 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 90.678 0)
+		(property "Footprint" "Capacitor_SMD:C_1808_4520Metric_Pad1.72x2.30mm_HandSolder"
+			(at 188.722 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7709,8 +7475,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1kΩ, 1/4W Resistor"
-			(at 222.25 90.17 0)
+		(property "Datasheet" "~"
+			(at 187.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse, small symbol"
+			(at 187.96 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,15 +7494,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "740bb465-4df8-40f4-88da-0cf5ae92ae4d")
+			(uuid "c5695377-127b-47ce-91a6-a0073def2329")
 		)
 		(pin "2"
-			(uuid "712b2c3e-3c24-4153-bb4f-0d9dade99e65")
+			(uuid "8a5507a7-fc55-4195-a8fd-4f1eb5c4ef1a")
 		)
 		(instances
-			(project "HUSB238_version"
+			(project ""
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "R23")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -7939,7 +7714,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 240.03 90.17 0)
+		(at 231.14 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7947,7 +7722,7 @@
 		(dnp no)
 		(uuid "98895c29-c9ab-4ce4-8f99-61811b82929a")
 		(property "Reference" "C9"
-			(at 244.602 88.646 0)
+			(at 235.712 79.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,8 +7730,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Cap_1uF"
-			(at 248.92 92.202 0)
+		(property "Value" "10uF"
+			(at 240.03 83.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7740,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 240.03 90.17 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +7749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 90.17 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7758,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 90.17 0)
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,72 +8117,6 @@
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb175623-d436-41b2-80f9-ec15a80fb5d7")
-		(property "Reference" "#PWR0136"
-			(at 222.25 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71b2153e-7c48-4e18-bd44-32b393162ab0")
-		)
-		(instances
-			(project "HUSB238_version"
-				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -8831,35 +8540,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:MBR0520LT")
-		(at 236.22 82.55 270)
+		(lib_id "Regulator_Linear:HT75xx-1-SOT89")
+		(at 222.25 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d18125d1-2870-47e4-bd63-3490a3725237")
-		(property "Reference" "D2"
-			(at 238.76 80.9624 90)
+		(uuid "cf7f1c1d-06cc-4a69-a301-4bb067323dfe")
+		(property "Reference" "U2"
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MBR0520LT"
-			(at 238.76 83.5024 90)
+		(property "Value" "HT75xx-1-SOT89"
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 231.775 82.55 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+			(at 222.25 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.holtek.com/documents/10179/116711/HT75xx-1v250.pdf"
+			(at 222.25 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,34 +8584,28 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBR0520LT1-D.PDF"
-			(at 236.22 82.55 0)
+		(property "Description" "100mA Low Dropout Voltage Regulator, Fixed Output, SOT89"
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "20V 0.5A Schottky Power Rectifier Diode, SOD-123"
-			(at 236.22 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0e7baf62-d2fd-4733-a79c-c2338a1f69a4")
 		)
 		(pin "1"
-			(uuid "ebcec589-9582-454c-86c2-589cac12fe13")
+			(uuid "55a2c2a8-7ce1-432b-a7e6-04f73a1e208e")
+		)
+		(pin "3"
+			(uuid "08a7b5b7-5538-442a-b396-63ee1cddb169")
+		)
+		(pin "2"
+			(uuid "128f526e-0e30-498b-890e-c246538867f0")
 		)
 		(instances
 			(project ""
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "D2")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9029,75 +8740,6 @@
 			(project "HUSB238_version"
 				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 213.36 88.9 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e234715a-339b-4907-a008-30d6b10be6c5")
-		(property "Reference" "C7"
-			(at 208.788 90.424 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Cap_0.1uF"
-			(at 203.454 87.122 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 213.36 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "468b1af6-d0e9-4710-a89a-a0c4f4ecea96")
-		)
-		(pin "1"
-			(uuid "0e9bcc83-047e-403e-9bd6-c7683c3e0f37")
-		)
-		(instances
-			(project "HUSB238_version"
-				(path "/bc1bd124-88d8-4cb4-9e47-fec6a113a205"
-					(reference "C7")
 					(unit 1)
 				)
 			)
