@@ -4715,10 +4715,6 @@
 		(uuid "921f7fc5-9d6f-4283-adde-01b4aa3aade5")
 	)
 	(no_connect
-		(at 243.84 71.12)
-		(uuid "c6acd4b2-be8c-45be-84ae-ceb0e68a82ee")
-	)
-	(no_connect
 		(at 95.25 59.69)
 		(uuid "cc77c235-7522-47bc-9266-bdadcfe2ebd6")
 	)
@@ -6268,7 +6264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02408b35-a595-4180-8360-c5b6467472eb")
-		(property "Reference" "C21"
+		(property "Reference" "C15"
 			(at 167.64 62.23 0)
 			(effects
 				(font
@@ -6331,7 +6327,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C21")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6347,7 +6343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b0ea01f-c25d-42b7-8f79-a73f6fb45384")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 247.65 116.84 90)
 			(effects
 				(font
@@ -6414,7 +6410,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6430,7 +6426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cc42926-6478-446f-8a3c-644b470265d8")
-		(property "Reference" "C17"
+		(property "Reference" "C11"
 			(at 119.634 173.228 0)
 			(effects
 				(font
@@ -6493,7 +6489,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C17")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6509,7 +6505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d03fa5a-fe47-444b-b81f-69786386794b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR036"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -6559,7 +6555,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR040")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6575,7 +6571,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ebda3af-0122-44f3-9781-5f6af781acfd")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -6638,7 +6634,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C6")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -6653,7 +6649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1042a286-bc17-4ec0-b7c0-11dab46aeedc")
-		(property "Reference" "U8"
+		(property "Reference" "U6"
 			(at 110.744 30.734 0)
 			(effects
 				(font
@@ -6785,7 +6781,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "U8")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6801,7 +6797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13736a22-3f42-44c3-ace3-7d69b7b8348c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR040"
 			(at 111.76 105.41 0)
 			(effects
 				(font
@@ -6852,7 +6848,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR045")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6868,7 +6864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14f122a7-cca3-47d0-9cb5-c16b359e69a5")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 78.74 27.9399 0)
 			(effects
 				(font
@@ -6931,7 +6927,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -6947,7 +6943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "176884d3-f9fb-434f-be01-8abf2f5edabe")
-		(property "Reference" "R12"
+		(property "Reference" "R17"
 			(at 85.09 15.24 90)
 			(effects
 				(font
@@ -7017,7 +7013,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R12")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7028,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "286a448a-82f9-4fcf-967f-c497f0fe5022")
-		(property "Reference" "R12"
+		(property "Reference" "R20"
 			(at 132.08 33.02 90)
 			(effects
 				(font
@@ -7093,7 +7089,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R12")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7110,7 +7106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d5a904d-1f30-4e94-93de-c946cbabe871")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 109.347 15.24 90)
 			(effects
 				(font
@@ -7171,7 +7167,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7187,7 +7183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e34bb35-6a3e-4591-95d6-321892479b1e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR035"
 			(at 68.58 185.42 0)
 			(effects
 				(font
@@ -7237,7 +7233,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR041")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7253,7 +7249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30c687f5-7137-449d-839c-84cb5157402b")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 44.45 73.66 0)
 			(effects
 				(font
@@ -7329,7 +7325,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b81a600-98cc-47c9-bc0f-b54ef3e72d66")
-		(property "Reference" "C18"
+		(property "Reference" "C12"
 			(at 144.78 26.6699 0)
 			(effects
 				(font
@@ -7408,7 +7404,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C18")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -7424,7 +7420,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cd90b5f-d86c-477f-84f9-3db9d3177578")
-		(property "Reference" "J7"
+		(property "Reference" "J3"
 			(at 236.22 148.59 90)
 			(effects
 				(font
@@ -7491,7 +7487,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "J7")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7507,7 +7503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "426b5f7e-67ea-440d-b808-6dad9e6d08c9")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR045"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -7557,7 +7553,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR051")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7573,7 +7569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bea1495-3cf0-40de-ac31-da960f0773ce")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 93.98 170.1799 0)
 			(effects
 				(font
@@ -7636,7 +7632,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7652,7 +7648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c50dd2a-c88f-4364-9f79-9d1a8e28160e")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR038"
 			(at 90.17 80.01 0)
 			(effects
 				(font
@@ -7702,7 +7698,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR042")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7718,7 +7714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f2970d2-0d41-46a1-9c7f-4241473de3d5")
-		(property "Reference" "U9"
+		(property "Reference" "U3"
 			(at 48.26 113.03 0)
 			(effects
 				(font
@@ -7929,7 +7925,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "U9")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7945,7 +7941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50ae1cc2-c84f-4d9a-bd61-26bf44a78dc8")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 71.12 31.7499 0)
 			(effects
 				(font
@@ -8008,7 +8004,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8024,7 +8020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5344d85a-b002-4b45-aef5-3dbafdf75e36")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR050"
 			(at 222.25 147.32 0)
 			(effects
 				(font
@@ -8074,7 +8070,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR062")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8090,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "545e4abd-ad5b-4d42-8f19-1359b1c546f8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR039"
 			(at 110.49 187.96 0)
 			(effects
 				(font
@@ -8140,7 +8136,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR046")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -8156,7 +8152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59143fb1-7b13-4b2a-90d1-d8ae121a32bb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR048"
 			(at 214.63 125.73 0)
 			(effects
 				(font
@@ -8207,7 +8203,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR054")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -8223,7 +8219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f7f91e-5840-407f-8bc5-dfcbd285ff34")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR030"
 			(at 36.83 132.08 0)
 			(effects
 				(font
@@ -8273,7 +8269,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR073")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8289,7 +8285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bcdb0a6-8a7b-4bae-a2cc-20e143feb2bc")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR027"
 			(at 27.94 68.58 0)
 			(effects
 				(font
@@ -8339,7 +8335,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR033")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8355,7 +8351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d0d7b90-e33a-4401-b0d1-8f8fdbf169c0")
-		(property "Reference" "C19"
+		(property "Reference" "C13"
 			(at 148.59 71.12 0)
 			(effects
 				(font
@@ -8418,7 +8414,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C19")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e2f33df-186f-4eaa-9dc3-8dc36711ddab")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR025"
 			(at 30.48 120.65 0)
 			(effects
 				(font
@@ -8485,7 +8481,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR070")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8501,7 +8497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc4d89a-dd0c-4ef4-b593-941f1badbe61")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 52.07 151.13 0)
 			(effects
 				(font
@@ -8571,71 +8567,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 243.84 71.12 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63c99b11-5754-4558-a232-3115191c0fc9")
-		(property "Reference" "H2"
-			(at 246.38 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 246.38 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "H2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -8651,7 +8583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63f8baa8-9745-4240-bb9d-1b0f001653e8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR047"
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -8702,7 +8634,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR053")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8718,7 +8650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "640ce97f-6120-46ba-8ebd-fda4573c487f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR037"
 			(at 81.28 190.5 0)
 			(effects
 				(font
@@ -8768,7 +8700,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR043")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -8784,7 +8716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66f14c8d-6ed0-4b77-b8f7-6c66899c6d57")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR032"
 			(at 58.42 48.26 0)
 			(effects
 				(font
@@ -8834,7 +8766,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR039")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -8850,7 +8782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69193cb8-40d1-472b-821d-72c13778039b")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 189.23 28.8924 90)
 			(effects
 				(font
@@ -8904,7 +8836,7 @@
 		(instances
 			(project ""
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8920,7 +8852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a12c0a5-a716-4dd6-a048-fd716292bf3e")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR049"
 			(at 210.82 136.398 0)
 			(effects
 				(font
@@ -8971,7 +8903,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR055")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -8987,7 +8919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a3813f2-76ce-453e-b05c-0dda3b5b6fa0")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 83.82 161.29 90)
 			(effects
 				(font
@@ -9039,7 +8971,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -9055,7 +8987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f2ce180-c652-48d9-a9ad-ca9893a9018f")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR051"
 			(at 233.68 115.57 0)
 			(effects
 				(font
@@ -9105,7 +9037,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR061")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9121,7 +9053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72c4abfb-aa1a-492f-a29d-df5cd89038a4")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR041"
 			(at 118.11 166.37 0)
 			(effects
 				(font
@@ -9172,7 +9104,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR047")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -9187,7 +9119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "789f8f4e-022c-4fe8-ae2c-5b61e945d850")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 103.378 173.228 0)
 			(effects
 				(font
@@ -9250,7 +9182,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9265,7 +9197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82ad7d04-6e47-4b65-b406-33a78bfa0184")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR044"
 			(at 151.13 83.82 0)
 			(effects
 				(font
@@ -9315,7 +9247,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR050")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9331,7 +9263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86dd5892-943c-4a10-b0a2-4a671584031a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR028"
 			(at 35.56 193.04 0)
 			(effects
 				(font
@@ -9381,7 +9313,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR021")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9396,7 +9328,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "879b034f-d177-46e0-9105-c6e40d0180e1")
-		(property "Reference" "C23"
+		(property "Reference" "C4"
 			(at 19.558 123.698 0)
 			(effects
 				(font
@@ -9459,7 +9391,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C23")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -9475,7 +9407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98fb7104-577c-472c-b6be-04c583b062aa")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 50.8 100.33 0)
 			(effects
 				(font
@@ -9525,7 +9457,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c2c45c4-ed2b-4809-8e84-27acbd22e01e")
-		(property "Reference" "C16"
+		(property "Reference" "C10"
 			(at 110.744 173.228 0)
 			(effects
 				(font
@@ -9603,7 +9535,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C16")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9619,7 +9551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eddaec6-af7c-4121-96ae-81913179be86")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR034"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -9669,7 +9601,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR072")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9685,7 +9617,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f532b5f-76db-4e22-b0c6-c2c1352b21a2")
-		(property "Reference" "C20"
+		(property "Reference" "C14"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -9748,7 +9680,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C20")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9763,7 +9695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab13a5c6-8dc2-4e80-ae93-b5b8ef3745bc")
-		(property "Reference" "N22"
+		(property "Reference" "N1"
 			(at 216.408 121.158 0)
 			(effects
 				(font
@@ -9819,7 +9751,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "N22")
+					(reference "N1")
 					(unit 1)
 				)
 			)
@@ -9835,7 +9767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b24c7b3a-b917-4960-b1a0-c4b0ff87b24c")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 114.3 82.5499 0)
 			(effects
 				(font
@@ -9898,7 +9830,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9914,7 +9846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd3fa005-57b4-49cb-b86c-b8d10f096e07")
-		(property "Reference" "R6"
+		(property "Reference" "R14"
 			(at 60.96 31.7499 0)
 			(effects
 				(font
@@ -9977,7 +9909,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R6")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9993,7 +9925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bea3de9d-7a27-4638-843d-fc365d102fa7")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR026"
 			(at 26.67 134.62 0)
 			(effects
 				(font
@@ -10043,7 +9975,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR071")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10058,7 +9990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c21fffa7-8f7f-4c22-aa69-c069d42fb5ac")
-		(property "Reference" "C24"
+		(property "Reference" "C6"
 			(at 70.612 123.698 0)
 			(effects
 				(font
@@ -10121,7 +10053,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C24")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -10137,7 +10069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c52ba478-2df6-4b51-9686-b7669eef038f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR046"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -10187,7 +10119,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR052")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -10202,7 +10134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbbce266-a8c9-4b93-97c3-eb609f25edd8")
-		(property "Reference" "J5"
+		(property "Reference" "J2"
 			(at 210.058 136.398 0)
 			(effects
 				(font
@@ -10258,7 +10190,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "J5")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc61833b-ea28-4a72-8285-20aa3f231645")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 115.57 94.9325 90)
 			(effects
 				(font
@@ -10335,7 +10267,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -10351,7 +10283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc828d08-5331-411c-a879-4bfb3451fe69")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR043"
 			(at 140.97 40.64 0)
 			(effects
 				(font
@@ -10401,7 +10333,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR049")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10416,7 +10348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd5aae6f-7818-4a23-9713-7376fd0352c3")
-		(property "Reference" "TH2"
+		(property "Reference" "TH1"
 			(at 137.16 74.6125 0)
 			(effects
 				(font
@@ -10479,7 +10411,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "TH2")
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -10495,7 +10427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d097cb4c-5176-45c1-88ae-351116a14fda")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR033"
 			(at 62.23 120.65 0)
 			(effects
 				(font
@@ -10546,7 +10478,7 @@
 		(instances
 			(project ""
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR01")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10639,7 +10571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de0f0128-4889-4e22-9e7b-6fd11883f835")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 83.82 179.0699 0)
 			(effects
 				(font
@@ -10702,7 +10634,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10717,7 +10649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e54b24fb-17cb-48cd-bb9e-b02d011bc1e6")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR042"
 			(at 134.62 87.63 0)
 			(effects
 				(font
@@ -10767,7 +10699,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR048")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10847,7 +10779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee9e7c94-473f-40ef-951b-c25f78c99e16")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR029"
 			(at 40.64 123.19 0)
 			(effects
 				(font
@@ -10898,7 +10830,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "#PWR074")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10913,7 +10845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f87d18-bf7c-4e54-997f-840f553fdcaa")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 29.718 175.26 0)
 			(effects
 				(font
@@ -10976,7 +10908,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10992,7 +10924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe12a1e1-cda6-4caf-ada9-e6ec90429119")
-		(property "Reference" "J11"
+		(property "Reference" "J1"
 			(at 27.94 13.97 0)
 			(effects
 				(font
@@ -11083,7 +11015,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "J11")
+					(reference "J1")
 					(unit 1)
 				)
 			)
