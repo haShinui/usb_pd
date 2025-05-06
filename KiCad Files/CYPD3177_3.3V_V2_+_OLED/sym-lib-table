@@ -9,4 +9,5 @@
   (lib (name "DMC2990UDJ-7")(type "KiCad")(uri "${KIPRJMOD}/DMC2990UDJ/DMC2990UDJ-7.kicad_sym")(options "")(descr ""))
   (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/tc006/easyeda2kicad.kicad_sym")(options "")(descr ""))
   (lib (name "SMD_Swtich")(type "KiCad")(uri "${KIPRJMOD}/Mini_Switch/SMD_Swtich.kicad_sym")(options "")(descr ""))
+  (lib (name "AON7534")(type "KiCad")(uri "${KIPRJMOD}/AON7534/AON7534.kicad_sym")(options "")(descr ""))
 )

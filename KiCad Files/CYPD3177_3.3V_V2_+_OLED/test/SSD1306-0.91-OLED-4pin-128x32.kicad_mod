@@ -208,4 +208,15 @@
 		(uuid "94f93517-cbb0-4b21-b4cd-1fd9b5374bfa")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/test/OLED_0.91_128x32.stp"
+		(offset
+			(xyz 19 -6 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
 )

@@ -2866,89 +2866,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Converter:TPS62933DRLR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4717,10 +4634,6 @@
 	(no_connect
 		(at 95.25 59.69)
 		(uuid "cc77c235-7522-47bc-9266-bdadcfe2ebd6")
-	)
-	(no_connect
-		(at 243.84 64.77)
-		(uuid "ea1b2d5b-ba72-471a-b4c1-87630313e385")
 	)
 	(no_connect
 		(at 39.37 166.37)
@@ -6667,7 +6580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Interface_USBC:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm"
 			(at 55.372 27.94 0)
 			(effects
 				(font
@@ -8513,7 +8426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Power_Converter:SOT583"
+		(property "Footprint" "TPS62933PDRLR:SOFL50P160X60-8N"
 			(at 49.53 168.91 0)
 			(effects
 				(font
@@ -10700,70 +10613,6 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 243.84 64.77 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed168e76-aaae-4803-8920-0a2afc65957b")
-		(property "Reference" "H1"
-			(at 246.38 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 246.38 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom"
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 243.84 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "H1")
 					(unit 1)
 				)
 			)

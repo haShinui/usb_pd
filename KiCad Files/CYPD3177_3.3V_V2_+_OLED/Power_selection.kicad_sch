@@ -1984,6 +1984,12 @@
 		(uuid "ab2f491b-88be-41a7-a95d-1d6ce5a0c975")
 	)
 	(junction
+		(at 71.12 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afcf0d42-3c46-4089-a8a5-544271bdea04")
+	)
+	(junction
 		(at 118.11 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2030,10 +2036,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb03dc2d-145a-4097-947f-c8f7e559fa40")
-	)
-	(no_connect
-		(at 71.12 104.14)
-		(uuid "33942734-fd96-4fcd-abeb-c98b7c3ee1f1")
 	)
 	(wire
 		(pts
@@ -2084,6 +2086,16 @@
 			(type default)
 		)
 		(uuid "1872b4de-77cf-4bf1-a678-89f4805dbc9d")
+	)
+	(wire
+		(pts
+			(xy 71.12 95.25) (xy 71.12 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18b1b810-68db-4701-af61-aa26efabaa4a")
 	)
 	(wire
 		(pts
@@ -2635,18 +2647,7 @@
 		)
 		(uuid "f806e0e7-b721-4cba-aa4a-7c5582ab3270")
 	)
-	(hierarchical_label "Rail_2"
-		(shape output)
-		(at 116.84 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0cbf00d9-4672-4609-88a0-505952d7164a")
-	)
-	(hierarchical_label "Rail_2"
+	(hierarchical_label "Rail_2_IN"
 		(shape output)
 		(at 245.11 127 0)
 		(effects
@@ -2655,7 +2656,18 @@
 			)
 			(justify left)
 		)
-		(uuid "28a501d1-b7a7-4045-90d4-d0268be13703")
+		(uuid "17bb1f07-1bd4-4a30-8ed0-d36ea089e160")
+	)
+	(hierarchical_label "PGOOD"
+		(shape output)
+		(at 71.12 95.25 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c05541d-c335-42b0-8a27-b969ef508dc7")
 	)
 	(hierarchical_label "VBUS_Fault"
 		(shape output)
@@ -2689,6 +2701,17 @@
 			(justify left)
 		)
 		(uuid "673fcbd5-4ba0-41c7-ab11-95f5e019bf1c")
+	)
+	(hierarchical_label "Rail_2_IN"
+		(shape output)
+		(at 116.84 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80e1f039-4e66-4f72-81c5-5e842efafe8e")
 	)
 	(hierarchical_label "Load_Monitor_VBUS"
 		(shape output)
@@ -4207,6 +4230,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 78.74 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa68c245-5b3a-4792-9340-3f6bcf2cf5f1")
+		(property "Reference" "#PWR078"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 82.55 104.1399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 78.74 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91732065-8bd2-4051-b673-248c61cb9be8")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 111.76 130.81 0)
 		(unit 1)
@@ -4268,6 +4358,84 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 74.93 104.14 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2050d1d-f0b1-4fc9-a986-fd3080f71100")
+		(property "Reference" "R34"
+			(at 75.692 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.898 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 74.93 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6879bfd4-879b-4c43-a2a0-4b65b1550175")
+		)
+		(pin "1"
+			(uuid "32f09f5f-329f-4354-bb2b-4a7965cd8154")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
+					(reference "R34")
 					(unit 1)
 				)
 			)
