@@ -2628,7 +2628,7 @@
 				)
 			)
 			(property "Value" "AP33772S"
-				(at -6.096 22.606 0)
+				(at -6.096 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2636,7 +2636,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Interface_USBC:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm"
+			(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.65x2.65mm"
 				(at -57.658 27.94 0)
 				(effects
 					(font
@@ -2810,7 +2810,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -17.78 -16.51 0)
 					(length 2.54)
 					(hide yes)
@@ -2829,7 +2829,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -17.78 -16.51 0)
 					(length 2.54)
 					(hide yes)
@@ -2848,7 +2848,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -17.78 -16.51 0)
 					(length 2.54)
 					(hide yes)
@@ -2867,7 +2867,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -17.78 -16.51 0)
 					(length 2.54)
 					(hide yes)
@@ -2886,7 +2886,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -17.78 -16.51 0)
 					(length 2.54)
 					(hide yes)
@@ -2905,7 +2905,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin no_connect line
 					(at -17.78 -16.51 0)
 					(length 2.54)
 					(hide yes)
@@ -6696,7 +6696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 169.2148 67.31 0)
 			(effects
 				(font
@@ -7204,7 +7204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 78.74 30.4799 0)
 			(effects
 				(font
@@ -7213,7 +7213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 75.8952 33.02 0)
 			(effects
 				(font
@@ -7290,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 85.09 23.368 90)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 150.1648 76.2 0)
 			(effects
 				(font
@@ -10131,7 +10131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 110.744 177.038 0)
 			(effects
 				(font
