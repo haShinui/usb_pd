@@ -3226,6 +3226,12 @@
 		(uuid "90ca3578-181e-45de-9d27-7002f6c694a2")
 	)
 	(junction
+		(at 175.26 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9260e465-1e5e-4fda-8f5b-5bb5da56543c")
+	)
+	(junction
 		(at 31.75 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3236,6 +3242,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7a8ede5-7852-462f-9d00-52237be8146b")
+	)
+	(junction
+		(at 175.26 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "add2ccc4-a3bd-498c-8aa3-82d11b1bd30a")
 	)
 	(junction
 		(at 54.61 104.14)
@@ -3281,6 +3293,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 110.49) (xy 175.26 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0213cfc5-afc3-4137-b0cf-f73bdca84c6e")
+	)
+	(wire
+		(pts
 			(xy 213.36 125.73) (xy 199.39 125.73)
 		)
 		(stroke
@@ -3311,6 +3333,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 113.03) (xy 175.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153b0513-9d56-4e4c-bd48-c7d5a299d9b8")
+	)
+	(wire
+		(pts
 			(xy 88.9 171.45) (xy 88.9 172.72)
 		)
 		(stroke
@@ -3328,6 +3360,16 @@
 			(type default)
 		)
 		(uuid "2cd8a374-df33-4e15-9482-c60b1b5e65e2")
+	)
+	(wire
+		(pts
+			(xy 175.26 110.49) (xy 156.21 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6a1d06-11f1-4ee0-a958-20b83a3ec5b8")
 	)
 	(wire
 		(pts
@@ -3508,6 +3550,16 @@
 			(type default)
 		)
 		(uuid "b1e52629-86e6-4457-bc69-27f91764822f")
+	)
+	(wire
+		(pts
+			(xy 175.26 113.03) (xy 156.21 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be856a51-9243-4654-a118-d655520a3814")
 	)
 	(wire
 		(pts
@@ -4302,6 +4354,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -4500,7 +4570,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 156.21 113.03 0)
+		(at 176.53 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4753,7 +4823,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 156.21 110.49 0)
+		(at 176.53 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6062,6 +6132,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 175.26 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47cf4a78-6eb7-42d4-8f75-497d8c11c896")
+		(property "Reference" "R35"
+			(at 169.672 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 169.672 108.712 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.482 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bd0409c-9088-403e-9cd2-e445d7530dc8")
+		)
+		(pin "1"
+			(uuid "096c0bf2-c9f6-4266-99d6-551e1ae31012")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Shunt")
 		(at 78.74 173.99 0)
 		(unit 1)
@@ -7034,6 +7182,73 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 175.26 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f3f0cf3-fa1d-4737-bf29-39d87c15bc3a")
+		(property "Reference" "#PWR084"
+			(at 171.45 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 179.07 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 175.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ce880e3-5538-4832-a233-95931dec3af9")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -8279,6 +8494,73 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 175.26 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae3e0c3f-88d5-45a6-8540-5133b10411e3")
+		(property "Reference" "#PWR081"
+			(at 171.45 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 179.07 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef226153-21dc-4ff7-983f-e94854b72620")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 232.41 127 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8916,6 +9198,84 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd5d9d50-c72a-4c02-96cb-a5cb844e662c")
+		(property "Reference" "R36"
+			(at 169.672 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 169.672 118.872 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 173.482 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 175.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e87c7372-deee-483b-b444-c5b4345863df")
+		)
+		(pin "1"
+			(uuid "1c84eb9d-fa9e-4bb9-9063-d70579ab0522")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
+					(reference "R36")
 					(unit 1)
 				)
 			)

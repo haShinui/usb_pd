@@ -9772,6 +9772,16 @@
 		(layer "User.1")
 		(uuid "8a8d4181-8096-4354-81cd-1a131dfe7bba")
 	)
+	(gr_line
+		(start 132.853178 103.36625)
+		(end 172.153178 103.34775)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "d38dd73c-077b-420d-9607-e2de2e4ad428")
+	)
 	(gr_text "Power"
 		(at 141.803178 106.94775 0)
 		(layer "F.SilkS")
