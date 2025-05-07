@@ -29,6 +29,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 115.57) (xy 146.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbf95d6-2daa-4a78-85f4-83d6af7bf58d")
+	)
+	(wire
+		(pts
+			(xy 142.24 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "109e46be-fb56-41fa-bf1e-288ea6d96ec0")
+	)
+	(wire
+		(pts
 			(xy 100.33 97.79) (xy 100.33 106.68)
 		)
 		(stroke
@@ -249,6 +269,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 115.57) (xy 146.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a8f570-2961-45f2-85a6-a78a2fbd1ffb")
+	)
+	(wire
+		(pts
 			(xy 152.4 120.65) (xy 152.4 102.87)
 		)
 		(stroke
@@ -286,6 +316,16 @@
 			(type default)
 		)
 		(uuid "9f54b0f6-fbba-45e4-9888-6bf4c45928fc")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 142.24 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad416699-943d-4b04-a16a-1600a83d0adc")
 	)
 	(wire
 		(pts
@@ -339,6 +379,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 81.28) (xy 138.43 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce490242-49b3-495a-92dd-c75c1cdafcec")
+	)
+	(wire
+		(pts
 			(xy 104.14 100.33) (xy 104.14 106.68)
 		)
 		(stroke
@@ -346,6 +396,16 @@
 			(type default)
 		)
 		(uuid "ce8e3ce4-fb43-4501-9665-ab7dae24af4d")
+	)
+	(wire
+		(pts
+			(xy 142.24 111.76) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec3309c-c6e3-4964-bfab-ebc3240a9901")
 	)
 	(wire
 		(pts
@@ -838,6 +898,26 @@
 		(pin "Rail_2" output
 			(at 138.43 64.135 0)
 			(uuid "b7aa6c48-3ee8-45c5-a7b2-a301fced4077")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 138.43 81.28 0)
+			(uuid "a601d74d-623e-4d45-87ad-ff6f1697f307")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 138.43 76.2 0)
+			(uuid "3558b16d-6fd3-4b46-9501-d5efe1f81cf6")
 			(effects
 				(font
 					(size 1.27 1.27)

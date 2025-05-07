@@ -4913,6 +4913,12 @@
 		(uuid "b625d24a-bf11-449f-a39b-7265d7c9ac97")
 	)
 	(junction
+		(at 30.48 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdcc37ae-a3f2-4c62-9488-6032be6b39d9")
+	)
+	(junction
 		(at 26.67 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5006,7 +5012,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 158.75) (xy 39.37 158.75)
+			(xy 24.13 158.75) (xy 30.48 158.75)
 		)
 		(stroke
 			(width 0)
@@ -6126,6 +6132,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 158.75) (xy 39.37 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a8b95b-f7b0-4cf9-8129-ba1b6a7ed483")
+	)
+	(wire
+		(pts
 			(xy 231.14 153.67) (xy 233.68 153.67)
 		)
 		(stroke
@@ -6484,16 +6500,6 @@
 		)
 		(uuid "43588e67-2160-4337-bcf4-611111209ed6")
 	)
-	(label "SCL_5V"
-		(at 133.35 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44b204bb-7a19-4b58-948b-88cd12fb2ecd")
-	)
 	(label "CC2"
 		(at 49.53 29.21 0)
 		(effects
@@ -6523,16 +6529,6 @@
 			(justify left bottom)
 		)
 		(uuid "6873e76d-57e1-4b3c-9453-e82cd77d8179")
-	)
-	(label "SDA_5V"
-		(at 133.35 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dc34470-06f2-45ce-aea6-dba9cd708b9e")
 	)
 	(label "CC1"
 		(at 49.53 26.67 0)
@@ -6668,6 +6664,28 @@
 		)
 		(uuid "bf802858-9eed-4695-ba63-fd73a3dd7c5f")
 	)
+	(hierarchical_label "SCL"
+		(shape bidirectional)
+		(at 133.35 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebaf9b16-1452-4e8a-a6ac-c2820b29e4c1")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 133.35 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcbe2b15-a19f-4700-b34d-b943b431eb9e")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 170.18 63.5 0)
@@ -6742,6 +6760,84 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 30.48 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "095ca182-d3c5-4197-b429-98f3e05ec345")
+		(property "Reference" "C27"
+			(at 30.988 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 30.988 164.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 31.4452 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2005191033_Samwha-Capacitor-CS3216X5R106K500NRI_C513774.pdf"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 30.48 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "209ae49d-60e9-4bee-8fe3-b2b0b674fdcc")
+		)
+		(pin "2"
+			(uuid "fb6c2b89-b8f5-4b74-930c-cbd1e9a09941")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -10337,6 +10433,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a616683a-5a87-4666-a777-dd8aed744d65")
+		(property "Reference" "#PWR085"
+			(at 30.48 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.924 168.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10e828f9-ade2-4794-bba8-4863f5e88795")
+		)
+		(instances
+			(project "CYPD3177_3.3V_V2_+_OLED"
+				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 30.48 0)
 		(unit 1)
@@ -11381,7 +11542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "33nF"
 			(at 29.718 177.8 0)
 			(effects
 				(font
@@ -11390,7 +11551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 27.6352 180.34 0)
 			(effects
 				(font
