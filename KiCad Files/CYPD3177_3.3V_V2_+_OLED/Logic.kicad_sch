@@ -4408,6 +4408,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -4422,7 +4440,7 @@
 		(uuid "1b41583a-4817-46e4-b6d8-7a84a988798a")
 	)
 	(label "PowerLED_EN"
-		(at 156.21 130.81 0)
+		(at 156.21 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4482,7 +4500,7 @@
 		(uuid "79fd7ce1-60c2-4ed0-82c4-e2e13bb01bb8")
 	)
 	(label "SW_RIGHT"
-		(at 156.21 97.79 0)
+		(at 156.21 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4492,7 +4510,7 @@
 		(uuid "7b894a0a-d9a6-474e-bd50-3b53e08a89a1")
 	)
 	(label "Failer_EN"
-		(at 156.21 127 0)
+		(at 156.21 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4532,7 +4550,7 @@
 		(uuid "c5f90a9e-a3e1-4d14-b8d6-5fd34fa4b57c")
 	)
 	(label "SW_UP"
-		(at 156.21 100.33 0)
+		(at 156.21 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4650,12 +4668,12 @@
 	)
 	(hierarchical_label "VBUS_SW"
 		(shape input)
-		(at 125.73 118.11 180)
+		(at 156.21 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "238d18a8-9240-486f-8371-dc2dcd693a60")
 	)
@@ -4749,12 +4767,12 @@
 	)
 	(hierarchical_label "LOGIC_Report"
 		(shape input)
-		(at 156.21 123.19 0)
+		(at 125.73 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "683831bc-e2c8-42c9-a31b-36edf36e3e2c")
 	)
@@ -5740,7 +5758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.35 79.0448 0)
 			(effects
 				(font
@@ -6317,7 +6335,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Parts:LED")
-		(at 222.25 109.22 270)
+		(at 245.11 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6325,7 +6343,7 @@
 		(dnp no)
 		(uuid "491064f2-391d-447a-bf69-260ccf4a023e")
 		(property "Reference" "D1"
-			(at 226.568 107.95 0)
+			(at 249.428 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6351,7 @@
 			)
 		)
 		(property "Value" "Green Power LED"
-			(at 219.964 110.236 0)
+			(at 242.824 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6359,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 226.695 109.22 0)
+			(at 249.555 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6368,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
-			(at 231.648 108.458 0)
+			(at 254.508 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6377,7 @@
 			)
 		)
 		(property "Description" "940nm IR-LED, 5mm"
-			(at 229.87 108.204 0)
+			(at 252.73 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7588,7 @@
 	)
 	(symbol
 		(lib_id "Custom_Parts:LED")
-		(at 245.11 109.22 270)
+		(at 222.25 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7578,7 +7596,7 @@
 		(dnp no)
 		(uuid "8990e68e-5b84-4c09-823d-383bdd7c1214")
 		(property "Reference" "D2"
-			(at 249.428 107.95 0)
+			(at 226.568 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7586,7 +7604,7 @@
 			)
 		)
 		(property "Value" "Red Failure LED"
-			(at 242.316 112.776 0)
+			(at 219.456 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +7612,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 249.555 109.22 0)
+			(at 226.695 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,7 +7621,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
-			(at 254.508 108.458 0)
+			(at 231.648 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,7 +7630,7 @@
 			)
 		)
 		(property "Description" "940nm IR-LED, 5mm"
-			(at 252.73 108.204 0)
+			(at 229.87 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
