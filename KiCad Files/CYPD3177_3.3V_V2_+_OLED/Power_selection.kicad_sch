@@ -3060,7 +3060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.1048 111.76 0)
 			(effects
 				(font
@@ -3217,7 +3217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 192.0748 133.35 0)
 			(effects
 				(font
@@ -3295,7 +3295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 48.26 0)
 			(effects
 				(font
@@ -3874,7 +3874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 85.3948 144.78 0)
 			(effects
 				(font
@@ -4100,7 +4100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.9752 156.21 0)
 			(effects
 				(font
@@ -4984,7 +4984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.5052 48.26 0)
 			(effects
 				(font
@@ -5273,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 94.2848 111.76 0)
 			(effects
 				(font
