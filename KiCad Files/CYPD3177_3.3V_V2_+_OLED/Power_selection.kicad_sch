@@ -268,155 +268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:PMEG6020ER"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PMEG6020ER"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "60V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "forward voltage diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PMEG6020ER_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PMEG6020ER_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Power_Management:TPS2116DRL"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1960,12 +1811,6 @@
 		(uuid "85d112a8-a060-4cc2-ac55-0dd5aa618424")
 	)
 	(junction
-		(at 241.3 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91766c68-a0f7-4100-83c7-9fee1904428d")
-	)
-	(junction
 		(at 95.25 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2014,12 +1859,6 @@
 		(uuid "e17beb25-868f-4c08-979a-eec1e5b898d5")
 	)
 	(junction
-		(at 111.76 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2f30fa0-95bb-41c5-b9d6-ab7401c9a0d3")
-	)
-	(junction
 		(at 74.93 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2049,7 +1888,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 119.38) (xy 111.76 119.38)
+			(xy 95.25 119.38) (xy 116.84 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2309,16 +2148,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 119.38) (xy 116.84 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e8afc07-10f0-424c-8ac0-471a0c42d9a2")
-	)
-	(wire
-		(pts
 			(xy 74.93 99.06) (xy 74.93 104.14)
 		)
 		(stroke
@@ -2359,16 +2188,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 123.19) (xy 111.76 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737892b1-dc0c-4bea-bf77-577094ce7bd3")
-	)
-	(wire
-		(pts
 			(xy 227.33 127) (xy 234.95 127)
 		)
 		(stroke
@@ -2396,16 +2215,6 @@
 			(type default)
 		)
 		(uuid "89fd0e63-700e-4a3f-9e58-19ac60cb180f")
-	)
-	(wire
-		(pts
-			(xy 241.3 129.54) (xy 241.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90c09ec3-c981-49d4-8b61-609231cf780c")
 	)
 	(wire
 		(pts
@@ -2469,16 +2278,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 127) (xy 241.3 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a425ab8d-a661-4324-868d-4f4d3ddc549e")
-	)
-	(wire
-		(pts
 			(xy 52.07 119.38) (xy 52.07 121.92)
 		)
 		(stroke
@@ -2539,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 127) (xy 234.95 127)
+			(xy 234.95 127) (xy 245.11 127)
 		)
 		(stroke
 			(width 0)
@@ -3926,76 +3725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG6020ER")
-		(at 111.76 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "994de765-d9cd-45a5-9362-e0712445b468")
-		(property "Reference" "D6"
-			(at 114.3 125.4124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMEG6020ER"
-			(at 114.3 127.9524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 107.315 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ac8bc7b-2d17-4eb2-b8ce-28b222f36f50")
-		)
-		(pin "2"
-			(uuid "bdd548eb-d15c-4d3e-a592-f4977dc4b25a")
-		)
-		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 63.5 104.14 270)
 		(unit 1)
@@ -4291,73 +4020,6 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 111.76 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1fcc4e4-135c-4b6d-bc90-91d915c3d8cf")
-		(property "Reference" "#PWR056"
-			(at 111.76 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6fea96f-e573-4a60-a2e2-cda8d518cac3")
-		)
-		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -5622,76 +5284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:PMEG6020ER")
-		(at 241.3 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e71f0298-2584-4037-a978-3b525206274a")
-		(property "Reference" "D7"
-			(at 243.84 131.7624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PMEG6020ER"
-			(at 243.84 134.3024 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 236.855 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG6020ER.pdf"
-			(at 241.3 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V, 2A low Vf MEGA Schottky barrier rectifier, SOD-123W"
-			(at 241.3 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3b5ee04-9fbd-4ac2-abed-9d2458e38b10")
-		)
-		(pin "2"
-			(uuid "f79fbaf6-3199-4ec2-b93f-308dac2a7198")
-		)
-		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 118.11 54.61 180)
 		(unit 1)
@@ -5764,73 +5356,6 @@
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "edf4af65-b87b-46b9-85f5-d67002fc7b8d")
-		(property "Reference" "#PWR068"
-			(at 241.3 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e4dfaa7-5487-4fda-86a7-c0386353f561")
-		)
-		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/ed97b83e-5e05-4a40-92ea-fb87b568f4be"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
