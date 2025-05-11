@@ -3874,6 +3874,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 91.44) (xy 156.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac93f2c-a8a8-4910-a17f-831ce5649987")
+	)
+	(wire
+		(pts
 			(xy 156.21 127) (xy 156.21 125.73)
 		)
 		(stroke
@@ -4645,18 +4655,44 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkAYQBuAGcALAAgAEYAWABMADEA"
+			"MAA1ADAALAAgADEAMAAuADkANQB4ADEAMAAuADAAeAA0AC4AOABtAG0ALAAgACgAaAB0AHQAcABz"
+			"ADoALwAvAHcAdwB3AC4AbABjAHMAYwAuAGMAbwBtAC8AZABhAHQAYQBzAGgAZQBlAHQALwBsAGMA"
+			"cwBjAF8AZABhAHQAYQBzAGgAZQBlAHQAXwAyADQAMAA0ADIANgAwADkAMgAxAF8AYwBqAGkAYQBu"
+			"AGcALQAtAEMAaABhAG4AZwBqAGkAYQBuAGcALQBNAGkAYwByAG8AZQBsAGUAYwB0AHIAbwBuAGkA"
+			"YwBzAC0AVABlAGMAaAAtAEYAWABMADAANAAyADAALQAyAFIAMgAtAE0AXwBDADEANgA3ADIAMAA2"
+			"AC4AcABkAGYAKQAsACAAZwBlAG4AZQByAGEAdABlAGQAIAB3AGkAdABoACAAawBpAGMAYQBkAC0A"
+			"ZgBvAG8AdABwAHIAaQBuAHQALQBnAGUAbgBlAHIAYQB0AG8AcgAgAGcAZQBuAF8AaQBuAGQAdQBj"
+			"AHQAbwByAC4AcAB5AAAAaGFuZ2VkLCBpZD1zZWxmLkdldElkKNlOn04gEACASQBuAGQAdQBjAHQA"
+			"bwByACwAIABDAGgAYQBuAGcAagBpAGEAbgBnACwAIABGAFgATAAxADAANQAwACwAIAAxADAALgA5"
+			"ADUAeAAxADAALgAwAHgANAAuADgAbQBtACwAIAAoAGgAdAB0AHAAcwA6AC8ALwB3AHcAdwAuAGwA"
+			"YwBzAGMALgBjAG8AbQAvAGQAYQB0AGEAcwBoAGUAZQB0AC8AbABjAHMAYwBfAGQAYQB0AGEAcwBo"
+			"AGUAZQB0AF8AMgA0ADAANAAyADYAMAA5ADIAMQBfAGMAagBpAGEAbgBnAC0ALQBDAGgAYQBuAGcA"
+			"agBpAGEAbgBnAC0ATQBpAGMAcgBvAGUAbABlAGMAdAByAG8AbgBpAGMAcwAtAFQAZQBjAGgALQBG"
+			"AFgATAAwADQAMgAwAC0AMgBSADIALQBNAF8AQwAxADYANwAyADAANgAuAHAAZABmACkALAAgAGcA"
+			"ZQBuAGUAcgBhAHQAZQBkACAAdwBpAHQAaAAgAGsAaQBjAGEAZAAtAGYAbwBvAHQAcAByAGkAbgB0"
+			"AC0AZwBlAG4AZQByAGEAdABvAHIAIABnAGUAbgBfAGkAbgBkAHUAYwB0AG8AcgAuAHAAeQAAAHdp"
+			"bmRvdyA9IHNlbGYuR2V0UGFnZSg4T3hNYxEAgEkAbgBkAHUAYwB0AG8AcgAsACAAQwBoAGEAbgBn"
+			"AGoAaQBhAG4AZwAsACAARgBYAEwAMgAyADEAMwAsACAAMgAyAA=="
 		)
-	)
-	(label "SW_DOWN"
-		(at 156.21 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b41583a-4817-46e4-b6d8-7a84a988798a")
 	)
 	(label "PowerLED_EN"
 		(at 156.21 97.79 0)
@@ -4718,16 +4754,6 @@
 		)
 		(uuid "79fd7ce1-60c2-4ed0-82c4-e2e13bb01bb8")
 	)
-	(label "SW_RIGHT"
-		(at 156.21 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b894a0a-d9a6-474e-bd50-3b53e08a89a1")
-	)
 	(label "Failer_EN"
 		(at 156.21 100.33 0)
 		(effects
@@ -4738,6 +4764,26 @@
 		)
 		(uuid "9158771d-ad65-47f4-9514-54379da5fe5f")
 	)
+	(label "SW_UP"
+		(at 156.21 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c9167b1-1d19-4380-bb5f-29f5b6c4c3fd")
+	)
+	(label "SW_DOWN"
+		(at 156.21 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9eba694a-9737-4170-bded-f1c242980fc8")
+	)
 	(label "SW_DOWN"
 		(at 80.01 109.22 0)
 		(effects
@@ -4747,6 +4793,16 @@
 			(justify left bottom)
 		)
 		(uuid "aff61743-d4d6-48a6-9ad4-65187c862ee4")
+	)
+	(label "SW_RIGHT"
+		(at 161.29 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7b9fe9d-f123-4c35-95f0-9ea64945ba73")
 	)
 	(label "INA_ALERT"
 		(at 124.46 121.92 180)
@@ -4767,16 +4823,6 @@
 			(justify right bottom)
 		)
 		(uuid "c5f90a9e-a3e1-4d14-b8d6-5fd34fa4b57c")
-	)
-	(label "SW_UP"
-		(at 156.21 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4e17389-10e0-4279-ac71-04cd7fb5b1c4")
 	)
 	(label "SW_RIGHT"
 		(at 85.09 104.14 0)
@@ -4819,17 +4865,6 @@
 		)
 		(uuid "01507edc-71bd-4c68-a284-d3303f98c3fa")
 	)
-	(hierarchical_label "PGOOD_Logic"
-		(shape output)
-		(at 156.21 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "02207a6b-dcc2-442e-8085-4088daf26aef")
-	)
 	(hierarchical_label "LOGIC_SW"
 		(shape input)
 		(at 125.73 123.19 180)
@@ -4863,6 +4898,17 @@
 		)
 		(uuid "07d62b0e-3937-443a-8ea9-82a7ce0e18df")
 	)
+	(hierarchical_label "PGOOD_Logic"
+		(shape output)
+		(at 156.21 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07dec7c4-b486-4001-8d46-1b2fea40382f")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 53.34 166.37 0)
@@ -4885,6 +4931,17 @@
 		)
 		(uuid "0b9725a9-0baa-4687-99d4-1e4b3353a8c0")
 	)
+	(hierarchical_label "PGOOD"
+		(shape output)
+		(at 156.21 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d269c57-7d87-45aa-a790-25a96b501367")
+	)
 	(hierarchical_label "TX"
 		(shape output)
 		(at 232.41 134.62 180)
@@ -4898,14 +4955,14 @@
 	)
 	(hierarchical_label "VBUS_SW"
 		(shape input)
-		(at 156.21 123.19 0)
+		(at 125.73 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "238d18a8-9240-486f-8371-dc2dcd693a60")
+		(uuid "21e6f861-339a-4026-af7f-fdbed206f26f")
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
@@ -4986,7 +5043,7 @@
 	)
 	(hierarchical_label "Load_Monitor_VBUS"
 		(shape output)
-		(at 156.21 90.17 0)
+		(at 156.21 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5006,17 +5063,6 @@
 		)
 		(uuid "683831bc-e2c8-42c9-a31b-36edf36e3e2c")
 	)
-	(hierarchical_label "VBUS_Fault"
-		(shape output)
-		(at 125.73 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ed15786-7a55-42c8-893b-b3d540830d94")
-	)
 	(hierarchical_label "SCL_3.3v"
 		(shape bidirectional)
 		(at 33.02 163.83 180)
@@ -5027,6 +5073,17 @@
 			(justify right)
 		)
 		(uuid "76d80ad5-19c8-4eac-878e-4e6854ba53ae")
+	)
+	(hierarchical_label "VBUS_Fault"
+		(shape output)
+		(at 156.21 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c75a1b9-c3d5-492a-a7a8-7dc5faa3a87b")
 	)
 	(hierarchical_label "Rail_2"
 		(shape output)
@@ -5115,17 +5172,6 @@
 			(justify left)
 		)
 		(uuid "ccb12259-35fd-4f1a-a311-31b64ddebad6")
-	)
-	(hierarchical_label "PGOOD"
-		(shape output)
-		(at 161.29 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cd7a2143-ddaf-49ac-ba29-db919b01c970")
 	)
 	(hierarchical_label "TX"
 		(shape output)
@@ -5408,7 +5454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 226.949 116.078 0)
 			(effects
 				(font
@@ -6037,7 +6083,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a6a5558-984d-41ad-a705-0a89880421c2")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 25.654 145.542 0)
 			(effects
 				(font
@@ -6100,7 +6146,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6760,7 +6806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f7b28d5-5510-4ea6-92d3-48b1ea5e8a90")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 257.81 108.458 0)
 			(effects
 				(font
@@ -6823,7 +6869,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8765,7 +8811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac198504-be81-4b37-b588-ae9c64241ad6")
-		(property "Reference" "R7"
+		(property "Reference" "R13"
 			(at 164.084 84.836 0)
 			(effects
 				(font
@@ -8828,7 +8874,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
-					(reference "R7")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9543,7 +9589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc88c77d-1d34-4041-846d-9c625a2102cc")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 260.604 98.806 0)
 			(effects
 				(font
@@ -9606,7 +9652,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9876,7 +9922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 249.809 116.078 0)
 			(effects
 				(font
