@@ -6884,7 +6884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ebda3af-0122-44f3-9781-5f6af781acfd")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 76.2 161.29 0)
 			(effects
 				(font
@@ -6947,7 +6947,7 @@
 		(instances
 			(project "CYPD3177_3.3V_V2_+_OLED"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/f9278a29-edee-4e3c-b24d-7a370e39fb32"
-					(reference "C8")
+					(reference "C17")
 					(unit 1)
 				)
 			)
