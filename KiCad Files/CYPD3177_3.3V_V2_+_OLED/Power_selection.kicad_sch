@@ -2859,7 +2859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 51.1048 111.76 0)
 			(effects
 				(font
@@ -3085,7 +3085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100nF"
 			(at 150.114 45.72 0)
 			(effects
 				(font
@@ -3664,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22nF"
 			(at 85.09 146.558 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 122.174 45.72 0)
 			(effects
 				(font
@@ -4926,7 +4926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "1uF"
 			(at 91.186 113.7919 0)
 			(effects
 				(font
@@ -4935,7 +4935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.2848 111.76 0)
 			(effects
 				(font
