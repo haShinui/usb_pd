@@ -11,6 +11,16 @@
 		(comment 1 "Licensed under CC BY-NC-SA 4.0 (c) 2025 Shinui")
 	)
 	(lib_symbols)
+	(text "Sorry for big mess"
+		(exclude_from_sim no)
+		(at 164.846 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca5fec8f-159e-4bfd-8f24-c167adec3ec3")
+	)
 	(no_connect
 		(at 137.16 129.54)
 		(uuid "7a5da681-6bb5-49a9-ae33-81dbb594e692")
