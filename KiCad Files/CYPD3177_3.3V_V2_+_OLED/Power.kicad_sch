@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "1f093fe8-1286-4152-9791-24e9c3f721f6")
 	(paper "A4")
+	(title_block
+		(title "USB PD PPS for breadboards")
+		(date "2025-05-01")
+		(rev "V1")
+		(comment 1 "Licensed under CC BY-NC-SA 4.0 (c) 2025 Shinui")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
