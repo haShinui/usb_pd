@@ -23759,7 +23759,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
-			(at 1.14 -0.008494 180)
+			(at 1.75 -0.09 180)
 			(layer "F.SilkS")
 			(uuid "843c5ad7-80f1-49c0-a8c8-ab74ef164e34")
 			(effects
@@ -25670,6 +25670,16 @@
 		(uuid "10ec6480-ae73-4e4f-a32f-02a9e9cf256e")
 	)
 	(gr_line
+		(start 146.928494 82.17)
+		(end 146.718494 82.13)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "135dd5ad-884b-4f0c-9a7d-ea8037031eca")
+	)
+	(gr_line
 		(start 106.86 86.1)
 		(end 106.86 86.8)
 		(stroke
@@ -25698,6 +25708,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "565ba530-5b02-41b8-8995-87d1f1d7d79c")
+	)
+	(gr_line
+		(start 146.928494 82.17)
+		(end 147.028494 82.04)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b802030-4198-402d-acfe-c5601d274d36")
 	)
 	(gr_line
 		(start 107.21 86.45)
@@ -25758,6 +25778,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "bd525362-e24e-4fe0-bbf3-45bea4380628")
+	)
+	(gr_line
+		(start 146.628494 81.66)
+		(end 146.928494 82.17)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5a89977-b700-4f15-8d93-28cb89fe1e98")
 	)
 	(gr_line
 		(start 162.0001 97)
