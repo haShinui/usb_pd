@@ -5078,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Value" "DMC2990UDJ-7"
+		(property "Value" "2N7002DW"
 			(at 233.68 93.98 0)
 			(effects
 				(font
@@ -5086,7 +5086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DMC2990UDJ:SOTFL35P100X50-6N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
 			(at 241.3 193.98 0)
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TCA9406DC"
+		(property "Value" "TCA9406YZPR"
 			(at 46.1167 177.8 0)
 			(effects
 				(font
