@@ -9178,7 +9178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "INA238"
+		(property "Value" "INA237"
 			(at 116.84 151.892 0)
 			(effects
 				(font
