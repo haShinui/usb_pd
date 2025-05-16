@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Costum_Library")(type "KiCad")(uri "${KIPRJMOD}/Costum_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "XC662")(type "KiCad")(uri "${KIPRJMOD}/xc6/XC6220B331PR-G.kicad_sym")(options "")(descr ""))
+  (lib (name "PCA9306DCUR")(type "KiCad")(uri "${KIPRJMOD}/test/PCA9306DCUR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS22992SRXNR")(type "KiCad")(uri "${KIPRJMOD}/TPS22992S/TPS22992SRXNR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS16630RGER")(type "KiCad")(uri "${KIPRJMOD}/TPS16630/TPS16630RGER.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS26633RGET")(type "KiCad")(uri "${KIPRJMOD}/TPS26633RGET/TPS26633RGET.kicad_sym")(options "")(descr ""))
+  (lib (name "DMC2990UDJ-7")(type "KiCad")(uri "${KIPRJMOD}/DMC2990UDJ/DMC2990UDJ-7.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/tc006/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "SMD_Swtich")(type "KiCad")(uri "${KIPRJMOD}/Mini_Switch/SMD_Swtich.kicad_sym")(options "")(descr ""))
+  (lib (name "AON7534")(type "KiCad")(uri "${KIPRJMOD}/AON7534/AON7534.kicad_sym")(options "")(descr ""))
+)

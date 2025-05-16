@@ -35,6 +35,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 107.95) (xy 198.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a626082-acbf-4e06-9da3-f8e1fd9d1028")
+	)
+	(wire
+		(pts
 			(xy 137.16 115.57) (xy 146.05 115.57)
 		)
 		(stroke
@@ -205,6 +215,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 107.95) (xy 198.12 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69261b88-1d3f-4b68-846e-490d6fd47f54")
+	)
+	(wire
+		(pts
 			(xy 205.74 120.65) (xy 152.4 120.65)
 		)
 		(stroke
@@ -255,13 +275,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 139.7) (xy 76.2 139.7)
+			(xy 198.12 95.25) (xy 205.74 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f67f20d-8245-4c08-9a84-c912787051a4")
+		(uuid "7eab46de-5ca7-4bc9-9b33-727cd926618c")
 	)
 	(wire
 		(pts
@@ -405,16 +425,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 139.7) (xy 76.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26f7e12-52a5-42f9-ac98-dafe2eab73e1")
-	)
-	(wire
-		(pts
 			(xy 111.76 106.68) (xy 111.76 132.08)
 		)
 		(stroke
@@ -422,16 +432,6 @@
 			(type default)
 		)
 		(uuid "e93ae2dd-7138-441a-855c-32891ec31808")
-	)
-	(wire
-		(pts
-			(xy 76.2 88.9) (xy 81.28 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e99fd853-b3a4-45ed-9c12-ce72184c4edc")
 	)
 	(wire
 		(pts
@@ -494,8 +494,8 @@
 		(uuid "ffd0864a-89e1-4bdd-8447-ab882a6d911d")
 	)
 	(sheet
-		(at 87.63 106.68)
-		(size 49.53 67.945)
+		(at 88.265 106.68)
+		(size 48.895 67.945)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -510,7 +510,7 @@
 		)
 		(uuid "bd19bb82-a076-4c57-9538-864609224ca0")
 		(property "Sheetname" "Logic"
-			(at 87.63 105.9684 0)
+			(at 88.265 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -519,7 +519,7 @@
 			)
 		)
 		(property "Sheetfile" "Logic.kicad_sch"
-			(at 87.63 175.2096 0)
+			(at 88.265 175.2096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +608,7 @@
 			)
 		)
 		(pin "SCL_3.3v" bidirectional
-			(at 87.63 150.495 180)
+			(at 88.265 150.495 180)
 			(uuid "19b37b44-39c3-4dfc-8eec-9ada75a65c00")
 			(effects
 				(font
@@ -628,7 +628,7 @@
 			)
 		)
 		(pin "SDA_3.3v" bidirectional
-			(at 87.63 153.035 180)
+			(at 88.265 153.035 180)
 			(uuid "e6f0d516-0b43-4e51-a100-a28484854a06")
 			(effects
 				(font
@@ -697,18 +697,18 @@
 				(justify right)
 			)
 		)
-		(pin "Buck_Status" output
-			(at 87.63 139.7 180)
-			(uuid "2fde602b-3df1-48e4-8a9d-275f38839817")
+		(pin "PGOOD" output
+			(at 137.16 107.95 0)
+			(uuid "852831d3-ecad-4ac9-a4e1-652d21ce0c3f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
+			(project "CYPD3177_DEV_BOARD"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392"
 					(page "2")
 				)
@@ -839,8 +839,18 @@
 				(justify left)
 			)
 		)
+		(pin "PGOOD" output
+			(at 205.74 95.25 180)
+			(uuid "dd694049-d7ab-4d1f-99f5-868e2fcbb02a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
+			(project "CYPD3177_DEV_BOARD"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392"
 					(page "4")
 				)
@@ -848,8 +858,8 @@
 		)
 	)
 	(sheet
-		(at 81.28 27.94)
-		(size 57.15 67.31)
+		(at 83.185 27.94)
+		(size 55.245 67.31)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -864,7 +874,7 @@
 		)
 		(uuid "f9278a29-edee-4e3c-b24d-7a370e39fb32")
 		(property "Sheetname" "Power"
-			(at 81.28 27.2284 0)
+			(at 83.185 27.2284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +883,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 81.28 95.8346 0)
+			(at 83.185 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,18 +941,8 @@
 				(justify right)
 			)
 		)
-		(pin "Buck_Status" output
-			(at 81.28 88.9 180)
-			(uuid "b3978876-c2cf-452c-945a-1661428e003a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
-			(project "CYPD3177_3.3V_V2_+_OLED"
+			(project "CYPD3177_DEV_BOARD"
 				(path "/a370047b-ebc6-4236-825e-9462ba7e4392"
 					(page "3")
 				)
