@@ -4233,16 +4233,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 87.63) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe83883-8b79-4bba-b1b7-7dc82c8a7628")
-	)
-	(wire
-		(pts
 			(xy 100.33 147.32) (xy 110.49 147.32)
 		)
 		(stroke
@@ -4290,6 +4280,16 @@
 			(type default)
 		)
 		(uuid "da738d8b-438e-4d16-ae59-c1600e0db469")
+	)
+	(wire
+		(pts
+			(xy 81.28 69.85) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da9a08b3-0ac4-4c88-a53f-181e980b64ba")
 	)
 	(wire
 		(pts
@@ -4352,7 +4352,7 @@
 		(uuid "5bb99ecc-c4f6-4f7b-b824-368e229d2b35")
 	)
 	(label "SW_PRESS"
-		(at 81.28 90.17 0)
+		(at 81.28 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4392,17 +4392,17 @@
 		(uuid "9158771d-ad65-47f4-9514-54379da5fe5f")
 	)
 	(label "SW_UP"
-		(at 50.8 87.63 180)
+		(at 81.28 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9c9167b1-1d19-4380-bb5f-29f5b6c4c3fd")
 	)
 	(label "SW_DOWN"
-		(at 81.28 92.71 0)
+		(at 81.28 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +4422,7 @@
 		(uuid "aff61743-d4d6-48a6-9ad4-65187c862ee4")
 	)
 	(label "INA_ALERT"
-		(at 81.28 59.69 0)
+		(at 81.28 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,7 +4462,7 @@
 		(uuid "ef5cde0e-e09b-4b69-850c-d9cd399e27c2")
 	)
 	(label "SW_RIGHT"
-		(at 81.28 57.15 0)
+		(at 81.28 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4472,12 +4472,12 @@
 		(uuid "efed8a05-7edc-414a-ab76-fdddbf2b112e")
 	)
 	(label "SW_LEFT"
-		(at 50.8 80.01 180)
+		(at 81.28 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "f74c98cd-49e3-470f-b36e-dd96e5611075")
 	)
@@ -4494,7 +4494,7 @@
 	)
 	(hierarchical_label "LOGIC_SW"
 		(shape input)
-		(at 81.28 68.58 0)
+		(at 81.28 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4527,12 +4527,12 @@
 	)
 	(hierarchical_label "PGOOD_Logic"
 		(shape output)
-		(at 81.28 53.34 0)
+		(at 50.8 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "07dec7c4-b486-4001-8d46-1b2fea40382f")
 	)
@@ -4557,17 +4557,6 @@
 			(justify right)
 		)
 		(uuid "0b9725a9-0baa-4687-99d4-1e4b3353a8c0")
-	)
-	(hierarchical_label "PGOOD"
-		(shape output)
-		(at 81.28 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d269c57-7d87-45aa-a790-25a96b501367")
 	)
 	(hierarchical_label "TX"
 		(shape output)
@@ -4635,6 +4624,17 @@
 		)
 		(uuid "38368035-7c79-4ace-b2d9-b94644301209")
 	)
+	(hierarchical_label "Buck_Status"
+		(shape output)
+		(at 50.8 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bd36be1-ed6a-4ae8-a29e-bae85138363b")
+	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 191.77 162.56 180)
@@ -4659,7 +4659,7 @@
 	)
 	(hierarchical_label "Load_Monitor_VBUS"
 		(shape output)
-		(at 81.28 83.82 0)
+		(at 81.28 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,7 +4692,7 @@
 	)
 	(hierarchical_label "VBUS_Fault"
 		(shape output)
-		(at 81.28 66.04 0)
+		(at 81.28 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5386,72 +5386,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 104.14 143.51 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "230a5740-06e2-4558-b4be-85bfd698eb5d")
-		(property "Reference" "J21"
-			(at 101.854 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test"
-			(at 106.934 140.716 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 104.14 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 104.14 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b6e344a-2ec3-4eec-96f6-aaec6892f769")
-		)
-		(instances
-			(project "CYPD3177_DEV_BOARD"
-				(path "/a370047b-ebc6-4236-825e-9462ba7e4392/bd19bb82-a076-4c57-9538-864609224ca0"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 203.2 40.64 0)
 		(unit 1)
@@ -5673,7 +5607,7 @@
 		(dnp no)
 		(uuid "3a6a5558-984d-41ad-a705-0a89880421c2")
 		(property "Reference" "R12"
-			(at 31.75 147.828 90)
+			(at 31.75 147.955 90)
 			(effects
 				(font
 					(size 1.27 1.27)
