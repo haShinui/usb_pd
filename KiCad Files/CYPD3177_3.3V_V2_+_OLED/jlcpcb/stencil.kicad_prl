@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 7,
-    "active_layer_preset": "Front Assembly View",
+    "active_layer": 0,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -29,26 +29,27 @@
       "zones": true
     },
     "visible_items": [
-      "vias",
-      "footprint_text",
-      "footprint_anchors",
-      "ratsnest",
-      "footprints_front",
-      "footprints_back",
-      "footprint_values",
-      "footprint_references",
-      "tracks",
-      "drc_errors",
-      "drawing_sheet",
-      "bitmaps",
-      "pads",
-      "zones",
-      "drc_warnings",
-      "locked_item_shadows",
-      "conflict_shadows",
-      "shapes"
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      12,
+      13,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      34,
+      35
     ],
-    "visible_layers": "00000000_00000000_00000008_82000022",
+    "visible_layers": "ffc000c_7ffffffe",
     "zone_display_mode": 0
   },
   "git": {
@@ -57,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "CYPD3177_3.3V_V2_+_OLED.kicad_prl",
+    "filename": "stencil.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
