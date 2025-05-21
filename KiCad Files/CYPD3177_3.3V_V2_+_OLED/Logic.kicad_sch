@@ -3594,6 +3594,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 88.138) (xy 50.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1132495e-3080-40d9-96a5-e792710b9db8")
+	)
+	(wire
+		(pts
 			(xy 100.33 153.67) (xy 104.14 153.67)
 		)
 		(stroke
@@ -4104,16 +4114,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 87.63) (xy 50.8 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfe83883-8b79-4bba-b1b7-7dc82c8a7628")
-	)
-	(wire
-		(pts
 			(xy 100.33 147.32) (xy 110.49 147.32)
 		)
 		(stroke
@@ -4263,7 +4263,7 @@
 		(uuid "9158771d-ad65-47f4-9514-54379da5fe5f")
 	)
 	(label "SW_UP"
-		(at 50.8 87.63 180)
+		(at 50.8 88.138 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4354,7 +4354,7 @@
 	)
 	(hierarchical_label "LOGIC_Selection"
 		(shape input)
-		(at 50.8 81.28 180)
+		(at 50.8 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4541,7 +4541,7 @@
 	)
 	(hierarchical_label "LOGIC_Report"
 		(shape input)
-		(at 50.8 83.82 180)
+		(at 50.8 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
